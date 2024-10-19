@@ -1,0 +1,8 @@
+#Required libraries
+fastapi==0.95.0 # for building the web API
+uvicorn==0.22.0 # ASGI server for Fastapi
+pydantic==1.10.0 # Data validation and settings management using python typing annotation
+sqlalchemy==1.4.47 # Built-in SQLite support, no need to install seperately
+MongoDB # Built for backend database to support it, no need to install seperately
+pytest==7.3.1 # Testing framework for unit testing
+pytest-cov==4.0.0 # Coverage reporting for tests
